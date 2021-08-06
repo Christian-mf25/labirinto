@@ -1,0 +1,96 @@
+body, h1, section, div{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #f5f3f4;
+}
+
+h1{
+	font-family: 'Rancho', cursive;
+	text-align: center;
+	font-size: 4rem;
+	padding: 30px;
+	color:rgba(255, 99, 71, 0.986);
+}
+
+#maze{
+	background: linear-gradient(45deg, #FFF000, #FF9B00, #FF0000);
+	width: 840px;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.line{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+}
+
+.wall{
+	background-color: transparent;
+	width: 40px;
+	height: 100%;
+}
+
+.way{
+	background-color: #fff;
+	width: 40px;
+	height: 100%;
+}
+
+#start{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: 60%;
+}
+	#start img{
+		margin-left: 4px;
+	}
+
+#finish{
+	background-color: #04ff04;
+	width: 40px;
+	height: 100%;
+}
+
+.hidden{
+	display: none;
+}
+
+.chapolin{
+	height: 100%;
+	width: 100;
+	margin: 0 auto;
+}
+
+#winSec{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+	#winSec h1{
+		padding-bottom: 15px;
+	}
+	#winSec img{
+		width: 35%;
+	}
+	#winSec button{
+		border: none;
+		font-size: 1.5rem;
+		margin-left: 50px;
+		margin-top: 22px;
+		padding: 9px 15px;
+		border-radius: 60%;
+		background-color: #fae21b;
+	}
+
+.dark{
+	background-color: #264653;
+}
